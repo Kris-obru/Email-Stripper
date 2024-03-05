@@ -2,4 +2,4 @@
 Transfering emails from one web client to another can be a hassle. Email uploads using IMAP that are over 24MB are not allowed by Gmail. Almost all emails that are over the size limit are due to attachmed files. This program solves that by separating the attachments from the email and placing them in a separate folder sorted by email and date. From there you can upload your resized emails to your preferred client, and the attachments to cloud storage.
 
 # Usage
-Change the source, destination, and att
+Change the source, destination, and attachments directory to desired locations. If you dont have any specific locations, run the program first. It will create the folders in the local directory. Place the email folders into "/emails". The program will copy the emails to "/fixed" then place the attachments in "/attachments". You must have a folder for each email in "/emails". For example "/emails/johndoe123@gmail.com/"
