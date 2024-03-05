@@ -1,0 +1,6 @@
+{
+    "source_dir" : "./emails",
+    "destination_dir" : "./fixed",
+    "attach_dir" : "./attachments",
+    "size_in_bytes" : 25165824
+}
